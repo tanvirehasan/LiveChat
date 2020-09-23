@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/*-----------------------*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h2{
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* width */
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 	
+}
+
+/*-----------------*/
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+
+
+.header{
+	width: 100%;
+	height: 54px;
+	position: fixed;
+	top: 0;
+	border-bottom: 1px solid #F2F2F2;
+	background-color:#fff;
+}
+
+.nav{
+	width: 100%;
+	height: 54px;
+	margin: 0px auto;
+
+}
+
+.logo{
+	width:320px;
+	height: 54px;
+	border-right: 1px solid #F2F2F2;
+}
+
+.logo img{
+	width: 60px;
+	padding: 10px;	
+	float: left;
+}
+
+.logo h3{
+	float: right;
+	margin: 0;
+	padding: 10px;
+
+}
+
+.logincontnet{
+	width: 30%;
+	height: auto;
+	background-color: #FAFAFA;	
+	margin: 0px auto;
+	margin-top: 5%;
+	padding:50px;
+}
+
+.logincontnet h2{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	margin-bottom: 20px; 
+}
+
+.logincontnet input{
+	width: 97%;
+	border:1px solid #2ECCFA;
+	height: 40px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-size: 16px;
+	text-align: center;	
+}
+
+.logincontnet input[type=submit]{
+	width: 100%;
+	background-color: #2ECCFA;
+	color: #fff;
+}
+
+.userlist{
+	
+	width: 320px;
+	height: auto;
+	margin-top: 54px;
+	border-right: 1px solid #F2F2F2;
+	position: fixed;
+	bottom: 0;
+	top:0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+	
+.userlist form{
+	margin: 0px auto;
+	padding: 0;
+	width: 90%;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
+.userlist input{
+	width: 100%;
+	height: 30px;
+	border: 0;
+	background-color: #FAFAFA;
+}
+
+
+
+.profile{
+	width: 100%;
+	height: 70px;
+	background-color: #FAFAFA;
+	margin-bottom: 5px;
+	clear: both;
+}
+
+.profile:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+.profile img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	float: left;
+	margin: 5px 10px;
+	box-shadow:0px 0px 5px  #000;
+}
+
+.nametext{
+	width: 100%;
+	padding: 15px;
+}
+
+.nametext  h2{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.nametext  p{
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+.messbox{
+	
+	width:600px;
+	margin-top: 54px;
+	border-right: 1px solid #F2F2F2;
+	position: fixed;
+	bottom:60px;
+	top:0;
+	left: 320px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.chat{
+	width: 98%;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.porilepicchat{
+	width:30px;
+	height: 50px;
+	float: left;
+}
+
+.chattext{
+	width:500px;
+	height: auto;
+	float: left;
+	padding-left: 10px;
+}
+
+.chat img{
+	width:100%;
+	margin-right: 10px;
+	border-radius: 100%;
+}
+
+.chat p{
+	width: 100%;
+	margin: 0;
+	background-color: #2ECCFA;
+	color: #fff;
+	padding:5px 10px;
+	border-radius:5px;
+	font-family: arial;
+	font-size: 16px;
+}
+
+
+.chattypebox{
+	width:588px;
+	height:50px;
+	bottom: 0;
+	position: fixed;
+	padding: 5px;
+	border-right: 2px solid #F2F2F2;	
+
+}
+
+.chattypebox input[type=text]{
+	width: 85%;
+	height:30px;
+	font-size: 14px;
+	border: 0;
+	padding: 10px;
+	outline: none;
+	background-color: transparent;
+}
+
+.chattypebox input[type=submit]{
+	height: auto;
+	padding: 10px;
+	font-size: 14px;
+	border: 0;
+	background-color: transparent;
+}
